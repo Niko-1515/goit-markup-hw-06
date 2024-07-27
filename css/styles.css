@@ -1392,7 +1392,7 @@ input:focus+svg {
 
 
 
-.modal-check:checked+label>span {
+.modal-check:+label>.span-check {
     background-color: #404bbf;
     border: none;
     fill: #f4f4fd;
