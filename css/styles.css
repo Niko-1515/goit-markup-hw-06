@@ -1012,7 +1012,9 @@ p {
     display: flex;
     flex-direction: column;
     gap: 72px;
-    padding: 96px 0;
+    padding: 96px 16px;
+    justify-content: center;
+    align-items: center;
 }
 
 .bottom-about {}
@@ -1042,7 +1044,7 @@ p {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #f4f4fd;
-    max-width: 264px;
+    max-width: 288px;
 }
 
 .bottom-social {
@@ -1204,7 +1206,7 @@ width: 264px;
 
 @media screen and (min-width: 1158px) {
 .bottom-container{
-    padding: 100px 0;
+    padding: 100px 15px;
 }   
 .bottom-about {
 margin-right: 120px;
